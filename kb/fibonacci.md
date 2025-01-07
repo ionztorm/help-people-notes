@@ -47,7 +47,7 @@ We know that the sequence is the result of adding together the 2 previous fibona
 
 So if the current number is 10, then we want to add fibonacci(9) and fibonacci(8).. or.. fibonacci(10-1) + fibonacci(10-2)
 
-- so if then, what is the fibonacci of `current_num`?
+- so, what is the fibonacci of `current_num`?
 - Do we have the 2 previous fibonacci numbers stored anywhere?
 - How do we access them from a list?
 

@@ -70,7 +70,7 @@ fibonacci_sequence.append(next_number)
 # or
 fibonacci_sequence += [next_number]
 # or
-fibonacci_sequence[num] = next_number
+fibonacci_sequence[current_num] = next_number
 ```
 
 </details>

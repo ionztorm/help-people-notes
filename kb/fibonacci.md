@@ -53,15 +53,18 @@ So if the current number is 10, then we want to add fibonacci(9) and fibonacci(8
 
 <details>
 <summary>Spoiler Alert!</summary>
+
 ```py
 next_number = fibonacci_sequence[current_num-1] + fibonacci_sequence[current_num-2]
 ```
+
 </details>
 
 - How do we add the new result to the list?
 
 <details>
 <summary>Spoiler Alert!</summary>
+
 ```py
 fibonacci_sequence.append(next_number)
 # or
@@ -69,6 +72,7 @@ fibonacci_sequence += [next_number]
 # or
 fibonacci_sequence[num] = next_number
 ```
+
 </details>
 
 Print `fibonacci_sequence` at the end of the function or file to check that it worked.

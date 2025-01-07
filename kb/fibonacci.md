@@ -9,7 +9,7 @@ def fibonacci():
 ## Add function inputs
 
 ```py
-def fibonacci(fibonacci_sequence, number)
+def fibonacci(fibonacci_sequence, number):
 ```
 
 # 2. Define the inputs
